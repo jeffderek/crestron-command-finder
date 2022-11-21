@@ -64,7 +64,15 @@ function addAction(command, access, description, model) {
     }
 }
 
+async function delay() {
+    console.log('starting timeout');
+    await setTimeout(() => {
+        console.log('timeout complete');
+    }, 5000);
+}
+
 readFiles(`${__dirname}/info/`, readFileContent, (err) => {
     console.log(err);
 });
 fs.writeFileSync('src/assets/data.json', JSON.stringify(data));
+delay();
