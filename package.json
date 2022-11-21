@@ -1,6 +1,6 @@
 {
     "name": "crestron-command-finder",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "scripts": {
         "dev": "vite",
         "create-command-list": "node commands/create-command-list.js",

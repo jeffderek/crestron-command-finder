@@ -1,6 +1,7 @@
 <template>
     <nav>
         <img id="logo" src="@/assets/logo.png" />
+        <h1 id="title">{{ appName }}</h1>
         <div id="links">
             <RouterLink class="link" to="/">Home</RouterLink>
             <RouterLink class="link" to="/about">About</RouterLink>
@@ -13,6 +14,7 @@
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router';
+const appName = import.meta.env.VITE_APP_NAME;
 </script>
 
 <style lang="scss">
@@ -39,6 +41,10 @@ $navbar-height: 60px;
 
         #logo {
             padding: 8px;
+        }
+
+        #title {
+            color: $color-text-light;
         }
 
         #links {

@@ -1,15 +1,14 @@
 <template>
-    <div class="about">
-        <h1>This is an about page</h1>
-    </div>
+    <p>This project is developed and maintained by <a href="https://www.jeffmcaleer.com">Jeff McAleer</a></p>
+    <p>
+        Contribute to the project
+        <a href="https://github.com/jeffderek/crestron-command-finder">on GitHub</a>.
+    </p>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-    .about {
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-    }
+<style lang="scss">
+p {
+    padding: 6px;
+    font-size: 1.2rem;
 }
 </style>
