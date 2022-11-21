@@ -25,8 +25,7 @@ function readFileContent(content) {
 }
 
 function parseCommandList(model, commandList) {
-    let commands = commandList.split('\r\n');
-    console.log(commands);
+    let commands = commandList.split('\n');
     let commandRegex = /(?<command>\S+)\s+(?<access>\S*)\s+(?<description>.*)/m;
     commands.forEach((command) => {
         let matches = command.match(commandRegex);
