@@ -1,0 +1,207 @@
+RMC3 Console
+
+RMC3>
+RMC3>ver
+RMC3 Cntrl Eng [v1.601.3935.28796 (Oct 11 2019), #89824E14] @E-00107fbde7d2
+
+RMC3>help all
+8021XAUthenticate        Administrator      Enable/Disable 802.1x Authentication.
+8021XDOMain              Administrator      Configure/View 802.1x Domain Name.
+8021XMEThod              Administrator      Configure/View EAP Method.
+8021XPASsword            Administrator      Configure 802.1x Password.
+8021XSENdpeapver         Administrator      Enable/Disable 802.1x Peap version reporting.
+8021XTRUStedcas          Administrator      Select/List 802.1x Trusted CA Certificates.
+8021XUSERname            Administrator      Configure/View 802.1x User Name.
+8021XVALidateserver      Administrator      Require Validation Of 802.1x Authentication Server's Certificate.
+ADDBLOCKEDip             Administrator      Add an IP Address to the blocked list
+ADDDns                   Administrator      Add an entry to DNS server List
+ADDDOMAINGroup           Administrator      Add a domain group to this control system
+ADDGroup                 Administrator      Create a new local group
+ADDLICense               Administrator      Add application license.
+ADDLOCKEDUser            Administrator      Add a user account to the locked list
+ADDMaster                Programmer         Add a master entry to IP table
+ADDPeer                  Programmer         Add a peer(slave) entry to IP table
+ADDUSER                  Administrator      Create a new local user
+ADDUSERTogroup           Administrator      Add an existing local or domain user to an existing local group
+ADLOGIn                  Administrator      Login to Active Directory server
+ADLOGOut                 Administrator      Logout from Active Directory server
+AUCANCEL                 Administrator      Cancel the auto update in progress.
+AUCHECKNOW               Administrator      Check for updates now.
+AUDEVCONNECTPASS         Administrator      Get/Set the password used by auto update to login to Crestron devices.
+AUDEVCONNECTUSER         Administrator      Get/Set the username used by auto update to login to Crestron devices.
+AUDITLogging             Administrator      Display or Change the current audit logging operation.
+AUENABLE                 Administrator      Enable/disable automatic updates.
+AUFORCEUPDATENOW         Administrator      Force updates now.
+AUMANIFESTURL            Administrator      Get or Set auto updater manifest URL.
+AUPASSWORD               Administrator      Get/Set the password used by auto update to login to the update server.
+AUPLUGINCATALOGURL       Administrator      Get or Set auto updater plugin catalog URL.
+AUPOLLINTERVAL           Administrator      Set how long to wait before checking for updates again.
+AUSTATUS                 Programmer         Reports the auto update status.
+AUTHentication           Administrator      Authentication on/off
+AUTIME                   Administrator      Set a scheduled time for when to check for updates.
+AUTONEGot                Administrator      Set auto negotiation for Ethernet Device
+AUUSERNAME               Administrator      Get/Set the username used by auto update to login to the update server.
+BASICAUthentication      Administrator      Enable web server basic authentication.
+BRIDGEDEBUG              Programmer         Turn on/off bridge debug
+BROADcast                Operator           Enable/disable broadcasting of errors.
+BYE                      Operator           Close user session for this connection
+CARDS                    Operator           Display Cards Detected in System
+CD                       Operator           Change Directory
+CERTIFicate              Administrator      Add, Remove, List or View Certificates
+CIPHER                   Administrator      Set/Get the class of ciphers/algorithms used for the encryption
+CIPPORT                  Programmer         Set port number for CIP
+CLEARerr                 Operator           Clears the current error log.
+CLEARAUDITLOG            Administrator      Clear the audit log.
+CLEARCSAUTHENTICATION    Administrator      Clear Control System Authentication credentials.
+CLOUDPROXYAUTH           Administrator      Sets the authentication method for connecting to a proxy
+CLOUDPROXYURL            Administrator      Sets the url of the proxy used to make requests
+COPYfile                 Programmer         Copy a file to a different directory
+CORE3XPANELWEB           Programmer         Configure the core3 XPanel Flash policy server
+CSPROJECTload            Administrator      Load the project in Control System
+CSPROJECTRemove          Administrator      Remove the project from Control System
+CSTESTconsole            Administrator      This is Test Command
+CTPPORT                  Administrator      Set/Get the CTP Port
+DATASTOREDELete          Programmer         Clear the Logs for the Specified Program
+DATASTOREEXPORT          Operator           Export to XML file
+DATASTOREIMPORt          Operator           Import from XML file
+DATASTORESTATus          Operator           The Data Store Status
+DEFRouter                Administrator      Set default router.
+DELete                   Programmer         Remove file(s)
+DELETEDOMAINGroup        Administrator      Delete a domain group that was previously added to this control system
+DELETEGroup              Administrator      Delete an existing local group
+DELETEUser               Administrator      Delete an existing local user
+DELLICense               Administrator      Delete application(s) license.
+DHCP                     Administrator      Enable/disable dynamic IP addressing.
+DHCPOPT                  Administrator      Sets DHCP Server Options
+DIR                      Operator           List files and directories in current directory
+DOMAinname               Administrator      Set the domain name for DNS environment
+DOMAINNAMEEx             Administrator      Set the domain name for multiple adapters
+ECHO                     Operator           Enable/disable character echoing
+ENABLEFEature            Administrator      Enable/disable optional features
+ERASE                    Programmer         Remove file(s)
+ERRlog                   Operator           Prints the current error log.
+ETHWdog                  Administrator      Enable/disable Ethernet Watchdog.
+FGETfile                 Programmer         Uses built-in (S)FTP/HTTP(S) client to transfer file from the server to ROM
+FORCEDREBOOT             Operator           Forces system reboot
+FORMAT                   Programmer         Format external memory card
+FPUTfile                 Operator           Uses built-in (S)FTP/HTTP(S) client to transfer file from ROM to the server
+FREE                     Operator           Show available file space
+GETAUDITLOG              Administrator      Retrieve the audit log.
+GETCODE                  Operator           Retrieve code needed for eControl2 activation
+GETPAsswordrule          Administrator      Get password rules for local users
+HEARTBEATtimeout         Administrator      Set TCP Socket Send Timeout value in Milliseconds
+HELP                     Operator           Display help screens
+HKPAUSE                  Programmer         Pause bridge
+HKRESTORE                Programmer         Restore bridge to default and remove all registered devices
+HKRESUME                 Programmer         Resume bridge
+HOSTname                 Administrator      Set the host name for DNS environment
+ICMP                     Administrator      Enable/disable ICMP ping
+ICMPREDIRECT             Administrator      Enable/disable ICMP Redirect
+INFO                     Operator           Print Software Capabilities
+INITIALIZE               Programmer         Clear file system
+IPAddress                Administrator      Set IP address.
+IPCONFIG                 Operator           Display/Configure IP Settings
+IPMask                   Administrator      Set IP Subnet Mask.
+IPTable                  Operator           Display IP Table
+ISDIR                    Operator           Is the parameter a directory
+KILLSOCKET               Administrator      Close an active TCP console socket
+LISTBLOCKEDip            Administrator      List the blocked IP addresses
+LISTDNS                  Operator           Display the list of DNS servers
+LISTDOMAINGroups         Administrator      List domain groups that were added to this control system
+LISTGROUPS               Administrator      List existing local groups
+LISTGROUPUsers           Administrator      List all existing (local and domain) users in an existing local group
+LISTLOCKEDUsers          Administrator      List the locked user accounts
+LISTUSERS                Administrator      List of users authenticated on this system
+LOADIPTABle              Programmer         Load New IPTable
+LOGOFF                   User or Connect    Logoff current user
+MAKEDIR                  Programmer         Create a Directory
+MIPTable                 Programmer         Display Master IP Table
+MOVEfile                 Programmer         Move a file to a different directory
+MYCRESTRON               Programmer         Setup MyCrestron Domain & Password, and attempt to register system
+NETSTAT                  Operator           Displays protocol statistics and current TCP/IP network connections
+NUMNOHBRESPonsecnt       Administrator      Set maximum number of no response allowed for CIP Heartbeat Messaging
+NVRAMCLEAR               Programmer         Clear NVRAM with zeros
+NVRAMGET                 Operator           Retrieve contents of NVRAM from the system
+NVRAMPUT                 Programmer         Send contents of NVRAM to the system
+NVRAMREBOOT              Operator           Print reboot information
+OCSP                     Administrator      Display/Set OCSP configuration for SSL communication.
+PASSTO                   Operator           Enter passto mode console<->device
+PERSISTENTLOG            Administrator      Start PersistentLog on system boot
+PING                     Operator           Ping Remote Node
+PRINTAUDITLOG            Administrator      Print the audit log.
+PROGREGister             Programmer         Registers/Unregisters the specified program
+PROGRESet                Operator           Restarts the specified program
+PROGUPTIME               Operator           (*) Display the time the program is running
+RAMFree                  Operator           Show available RAM file space
+REBOOT                   Operator           Perform system reboot
+REMBLOCKEDip             Administrator      Remove an IP Address from the blocked list
+REMDns                   Administrator      Remove an entry to DNS server List
+REMLOCKEDUser            Administrator      Remove a user account from the locked list
+REMMaster                Programmer         Remove a master entry to IP table
+REMOTESYSlog             Administrator      Enable/disable remote system logging of errors.
+REMOVEDIR                Programmer         Remove a Directory
+REMOVETBCLIENT           Programmer         Removes Console Client Configuration
+REMOVEUserfromgroup      Administrator      Remove an existing local or domain user from an existing local group
+REMPeer                  Programmer         Remove a peer(slave) entry to IP table
+REPORTCRESNET            Operator           Show all devices on the main cresnet leg
+RESETPassword            Administrator      Reset an existing local user's password
+RESTORe                  Administrator      Restore factory defaults
+RMLOGerr                 Operator           Enable logging errors to the file.
+RMTRANSfer               Programmer         Transfer a project to/from removable media
+SECURECIPport            Programmer         Set Secure(SSL) port number for CIP
+SECURECTPport            Administrator      Set/Get Secure CTPPort
+SECUREGatewaymode        Administrator      Set/Display secure gateway operation mode.
+SECUREWebport            Administrator      Set Secure(SSL) port number for Web.
+SERIALNUMBER             Administrator      Command for Unrestricted Serial Number
+SETCSAUTHENTICATION      Administrator      Set Control System Authentication credentials.
+SETLogoffidletime        Administrator      Set idle time allowed before current user is automatically logged off
+SETLOCKOUTTIME           Administrator      Set time that an IP is blocked from login
+SETLOGINAttempts         Administrator      Set the maximum number of login attempts before a user is blocked
+SETPAsswordrule          Administrator      Set password rules for local users
+SETTBCLIENTCONNFRVR      Programmer         Set Console Client to try and reconnect after a disconnect
+SETTBCLIENTIPA           Programmer         Set Console Client Server IP Address
+SETTBCLIENTNUMRETRY      Programmer         Set Console Client number of retries
+SETTBCLIENTPORTNUM       Programmer         Set Console Client Server Port Number
+SHOWARPtable             Operator           Display interface ARP table
+SHOWEXTRAerrors          Operator           Enables extended errors
+SHOWHW                   Operator           Display hardware configuration
+SHOWLICENSE              Operator           Display list of licensed application(s).
+SHOWLICENSEEX            Operator           Display list of licensed application(s).
+SNTP                     Administrator      Configure network time synchronization
+SOCKETSendtimeout        Administrator      Set TCP Socket Send Timeout value in Milliseconds
+SSDEBUGENABLE            Administrator      Enable/disable S+ and S# application debugging for programmers
+SSHPORT                  Administrator      Set/Get the SSH Port
+SSHSERVer                Administrator      Configure the SSH server and the public keys
+SSL                      Administrator      Display/Set SSL type.
+SSLVERIFY                Administrator      Display/Set SSL certificate verification.
+SSPTASKs                 Operator           (*) Show currently executing user threads in SIMPL# Pro.
+STARTTBCLIENT            Programmer         Enables Console Client Connection
+STOPPROGram              Operator           Stops the specified program
+STOPTBCLIENT             Programmer         Disable Console Client Connection
+SYSTEMKEY                Administrator      Display system key.
+TCPKEEPALIVE             Programmer         Enable/disable TCP Keep Alive
+TELNETport               Administrator      Enable/disable the Telnet port
+TESTDNS                  Operator           Test DNS Server
+TIMEdate                 Administrator      Set the time and date
+TIMEZone                 Administrator      Set the timezone
+TLSVERsion               Administrator      Set the minimum TLS version.
+TRANSFERLICense          Administrator      Transfer application license.
+TYPE                     Operator           Display file contents
+UCMD                     Operator           (*) Send a command from the console to the user program
+UPDATEPassword           Operator           Update current local user's password
+UPLOAD                   Programmer         )Load file into cresnet device
+UPTIME                   Operator           Display the time the system is running
+USERINFOrmation          Administrator      Show access information for a specific user.
+USERPROGCMD              Operator           (*) Send a command from the console to the user program
+VERsion                  Operator           Version Command
+WEBINIT                  Programmer         Initialize Webserver default file.
+WEBPORT                  Administrator      Set port number for Webserver.
+WEBSERVer                Administrator      Enable/disable Webserver.
+WHO                      Administrator      Generate a report of the Ethernet consoles
+WHOAmi                   Operator           Display current user's identity
+XGETfile                 Operator           Use XMODEM to transfer file from ROM
+XPUTfile                 Programmer         Use XMODEM to transfer file to ROM
+
+    (*) - Add :InstanceNum after the command to redirect to particular instance
+
+RMC3>bye

@@ -1,0 +1,296 @@
+echo on
+
+
+TSW-1070 Control Console
+
+TSW-1070>
+
+TSW-1070>
+
+TSW-1070>ver
+TSW-1070 [v2.003.0037 (Wed Oct 19 17:32:26 EDT 2022), #9332097C] @E-c442680d4bcc
+
+TSW-1070>help all
+8021XAUthenticate             Administrator       Enable/Disable 802.1x Authentication.   
+8021XDOMain                   Administrator       Configure/View 802.1x Domain Name.      
+8021XMEThod                   Administrator       Configure/View EAP Method.              
+8021XPASsword                 Administrator       Configure 802.1x Password.              
+8021XSENdpeapver              Administrator       Enable/Disable 802.1x Peap version reporting.
+8021XTRUStedcas               Administrator       Select/List 802.1x Trusted CA Certificates
+8021XUSERname                 Administrator       Configure/View 802.1x User Name.        
+8021XVALidateserver           Administrator       Require Validation Of 802.1x Authentication Server's Certificate.
+ADDBLOCKEDip                  Administrator       Add an IP Address to the blocked list   
+ADDDOMAINGroup                Administrator       Create a new domain group               
+ADDDns                        Administrator       Add an entry to DNS server List         
+ADDGroup                      Administrator       Create a new local group                
+ADDHOSTS                      Administrator       Add hosts entries                       
+ADDLOCKEDUser                 Administrator       Add user to the blocked list            
+ADDMaster                     Programmer          Add an entry to IP table                
+ADDPUBKEYTouser               Administrator       Add a public key to an existing user account
+ADDPeer                       Programmer          Add an entry to Peers IP table          
+ADDREMOTeweb                  Programmer          Add an entry to Remote Web Connections table
+ADDUSER                       Administrator       Create a new local user                 
+ADDUSERTogroup                Administrator       Add an existing local or domain user to an existing local group
+ADLOGIN                       Administrator       Active Directory Login                  
+ADLOGOUt                      Administrator       Active Directory Logout                 
+APPAUENABLE                   Programmer          Enable/disable automatic updates of apps
+APPMODE                       Programmer          Enable or disable application mode      
+APPRESTART                    Programmer          Restart current or last used application
+APPSTOP                       Programmer          Stop current application                
+AUCHECKNOW                    Programmer          Check for updates now.                  
+AUDITLogging                  Administrator       Display or Change the current audit logging operation.
+AUENABLE                      Programmer          Enable/disable automatic updates.       
+AUFORCEUPDATENOW              Programmer          Force updates now.                      
+AUMANIFESTURL                 Programmer          Get or Set auto updater manifest URL.   
+AUPASSWORD                    Programmer          Get or Set auto updater password.       
+AUPOLLINTERVAL                Programmer          Set how long to wait before checking for updates again.
+AUSTATUS                      Programmer          Reports the auto update status.         
+AUTHentication                Administrator       Authentication on/off                   
+AUTIME                        Programmer          Set a scheduled time for when to check for updates.
+AUTODiscovery                 Operator            Commands for Ethernet auto discovery    
+AUUSERNAME                    Programmer          Get or Set auto updater username.       
+AUVERIFY                      Programmer          Configure verification when negotiating TLS and SSL connections.
+BATRECAL                      Operator            Recalibrate new battery in TSR310       
+BRIGHTNESS                    Programmer          Set LCD brightness level.               
+BROADcast                     Operator            Enable Error Broadcast                  
+BYE                           Operator            Close user session                      
+CARDS                         Operator            Display Cards detected in system        
+CD                            Operator            Change directory                        
+CERTIFicate                   Administrator       Add, Remove, List or View Certificates  
+CIPPORT                       Programmer          Set port number for CIP                 
+CIPSERVERPORT                 Programmer          Set port number for CIP Server          
+CIPTIMEOUT                    Operator            Set/Get CIP connection timeout          
+CLEARAUDITLOG                 Administrator       Clear the audit log.                    
+CLEARCSAUTHENTICATIon          Administrator       Clear Control System Authentication     
+CLEARerr                      Operator            Clears the current error log            
+CONFIGUTILS                   Administrator       Configuration utilities for data export and import
+COPYfile                      Programmer          Copy a file to a different directory    
+CORE3Uilevel                  Operator            View core3 UI Level.                    
+CORE3Version                  Operator            View core3 Version.                     
+CREATECsr                     Administrator       Generate a CSR.                         
+CWSANTICSRF                   Administrator       Enables/disables Anti-csrf feature      
+DEFRouter                     Administrator       Set default router                      
+DELETEDOMAINGroup             Administrator       Delete an existing domain group         
+DELETEGroup                   Administrator       Delete an existing local group          
+DELETEUser                    Administrator       Delete an existing local user           
+DELete                        Programmer          Remove File(s)                          
+DHCP                          Administrator       Control dynamic IP addressing           
+DHCPEx                        Administrator       Control dynamic IP addressing           
+DHCPOpt                       Administrator       Use FQDN in DHCP Discover Request       
+DIR                           Operator            List files and directories in current directory
+DOMAINNAMEEx                  Administrator       Set domain name                         
+DOMAinname                    Administrator       Set domain name                         
+ECHo                          Operator            Enable/disable character echoing        
+ENABLEfeature                 Administrator       Enables/disables specified feature      
+ENTERSETUPSEQ                 Administrator       Enable/disable hard key setup launch sequence
+ERASE                         Programmer          Remove file(s)                          
+ERRlog                        Operator            Prints the current error log            
+FGETfile                      Programmer          FTP file from a remote server           
+FIPSMode                      Administrator       Display or change FIPS mode             
+FLASHVersion                  Operator            View Flash Version and Vendor.          
+FORCEDREBOOT                  Operator            Forces system reboot                    
+FPUTfile                      Programmer          FTP file to a remote server             
+FREE                          Operator            Show available file space               
+GETAUDITLOG                   Administrator       Retrieve the audit log.                 
+GETPAsswordrule               Administrator       Display password rules                  
+HARDWAREDEBUG                 Programmer          Test hardware components                
+HDCPRECOVERY                  Administrator       Auto reset HDCP                         
+HEARTBEATtimeout              Administrator       Set/Get heartbeat timeout               
+HELP                          Operator            Display help screens                    
+HOSTname                      Administrator       Set hostname                            
+HPDRECOVERY                   Administrator       Auto reset HPD                          
+ICMP                          Administrator       Turn ON/OFF ICMP                        
+INFO                          Operator            Print Software Capabilities             
+INITIALIZE                    Programmer          Clear file system                       
+IPAddress                     Administrator       Set IP address                          
+IPCONFIG                      Operator            Display/Configure IP Settings           
+IPMask                        Administrator       Set IP subnet mask                      
+IPROUTE                       Operator            Print Kernel IP routing table           
+IPTable                       Operator            Display IP table                        
+IPV6                          Administrator       Enable/Disable IPv6                     
+IPV6Address                   Administrator       Add or remove a static IPv6 address     
+IPV6Config                    Administrator       Display current IPv6 settings and information
+IPV6DAD                       Administrator       Enable/Disable IPv6 duplicate addresss detection
+IPV6Defrouter                 Administrator       Set a static IPv6 default router        
+IPV6NDP                       Administrator       IPv6 Neighbor Discovery Protocol information
+IPV6PINGResp                  Administrator       Enable/Disable ping responses for IPv6  
+IPV6REDirects                 Administrator       Enable/Disable IPv6 redirects           
+IPV6ROUTEAdd                  Administrator       Add a static IPv6 route                 
+IPV6ROUTEDelete               Administrator       Delete a static IPv6 route              
+IPV6ROUTEprint                Administrator       Print IPv6 routing table                
+ISDIR                         Operator            Is the parameter a directory            
+KEYBOARDTYPE                  Programmer          Configure the keyboard language settings.
+KEYWAKE                       Programmer          Enable/disable turning on the LCD when waking from a hardkey press.
+KILLSOCKET                    Administrator       Close an active TCP console socket      
+LANGUAGE                      Programmer          Configure the locale language of the system.
+LCDMODE                       Programmer          Set display DAY or NIGHT mode to control max brightness levels.
+LEDBAR                        Programmer          Set LED RED BAR brightness.             
+LEDCONFIG                     Programmer          Configure mode of device LED(s)         
+LISTBLOCKEDips                Administrator       List the blocked IP addresses           
+LISTDNS                       Operator            Display the list of DNS servers         
+LISTDNSEx                     Operator            Display the list of DNS servers         
+LISTGROUPS                    Administrator       List existing local groups              
+LISTGROUPUsers                Administrator       List all existing (local and domain) users in an existing
+LISTLOCKEDUsers               Administrator       List blocked users                      
+LISTPUBKEYFromuser            Administrator       List existing public key from an existing user account
+LISTUSERS                     Administrator       List of users authenticated on this system
+LOGINSTAT                     Administrator       Set time to count valid logins          
+LOGOFF                        Operator            Logoff current user                     
+MAKEDIR                       Programmer          Create a Directory                      
+MASTERSTATE                   Programmer          Enable/disable all audio                
+MASTERVOL                     Programmer          Set master volume level                 
+MEDIABUFFERLEN                Programmer          Get or Set media player init. buffer length in ms.
+MEDIACHROMAKEY                Programmer          Get or Set media player chroma key.     
+MEDIAMUTE                     Programmer          Get or Set media audio mute             
+MEDIAPLAYERTCP                Programmer          Get or Set media stream over TCP        
+MEDIAVOLUME                   Programmer          Get or Set media audio volume           
+MESSage                       Operator            Display a message on the screen.        
+MICSTATE                      Programmer          Enable/disable mic                      
+MOVEfile                      Programmer          Move a file to a different directory    
+NETWORKSETTINGSRESET          Operator            Resets networking settings              
+NVRAMREBOOT                   Operator            Print reboot information                
+OSD                           Programmer          Show OSD state.                         
+OSKFORCe                      Administrator       Force OSK popup                         
+PAGEFLIP                      Programmer          Configure page flip options             
+PING                          Operator            Ping remote node                        
+PIRSHOW                       Operator            Show raw data and temperatures from Mercury PIR sensor
+POEPLUS                       Programmer          Enable/disable 24V when POEPLUS+ is available
+PRINTAUDITLOG                 Administrator       Print the audit log.                    
+PROJECTLOAD                   Programmer          Begin the process of loading the specified project
+PROJECTREFRESHSEQ             Administrator       Enable/disable hard key setup launch sequence
+PROJECTRESTART                Programmer          Restart the user project.               
+PROXY                         Administrator       Configure Proxy                         
+PROXYALLOW                    Administrator       Setup list of hosts that need to use Proxy
+RAMFree                       Operator            Show available RAM file space           
+REBOOT                        Operator            Reboot the device                       
+RECOVEr                       Administrator       Backup or Restore config/display folders
+RECOVERYREBOOT                Operator            Forces system reboot for recovery       
+REMBLOCKEDip                  Administrator       Remove an IP Address from the blocked list
+REMDns                        Administrator       Remove an entry from DNS server List    
+REMLOCKEDUser                 Administrator       Remove user from the blocked list       
+REMMaster                     Programmer          Remove a master entry                   
+REMOTEWEBConnections          Operator            Display Remote Web Connections          
+REMOVEDIR                     Programmer          Remove a Directory                      
+REMOVEPUBKEYFromuser          Administrator       Remove an existing public key from an existing user account
+REMOVEUserfromgroup           Administrator       Remove an existing local or domain user from an existing local group
+REMPeer                       Programmer          Remove an entry from Peers IP table     
+REMREMOTeweb                  Programmer          Remove a Web connection Entry           
+RESETPassword                 Administrator       Reset an existing local user's password 
+RESTORe                       Administrator       Restore factory defaults                
+RMLOGerr                      Operator            Enable logging errors to the file.      
+ROUTEADD                      Administrator       Add a static IP route                   
+ROUTEDELete                   Administrator       Delete a static IP route                
+ROUTEPRINT                    Administrator       Print Kernel IP routing table           
+SCREENSAVER                   Programmer          Get or Set screen saver settings        
+SCREENSHOT                    Operator            Take a screen shot.                     
+SECURECIPport                 Programmer          Set the secure (SSL) port number for CIP
+SECUREWebport                 Administrator       Set Secure(SSL) port number for Web.    
+SENSORPROXFIeldofview          Programmer          Display all sensor detection parameters for occupancy report
+SENSORPROXTHreshold           Programmer          Display all sensor detection parameters for occupancy report
+SETCSAUTHENTICATION           Administrator       Set Control System Authentication credentials.
+SETLOCKOUTTIME                Administrator       Set time that an IP is blocked from login
+SETLOGINAttempts              Administrator       Set the number of login attempts before blocking IP
+SETLogoffidletime             Administrator       Set idle time allowed before current user is automatically logged off
+SETPAsswordrule               Administrator       Set password rules                      
+SETUP                         Administrator       Enter Setup mode.                       
+SETUPWIZARD                   Operator            Reset Setupwizard flag                  
+SETUSERLOCKOUTTime            Administrator       Set time that a user is blocked from login
+SETUSERLOGINATtempts          Administrator       Set the number of login attempts before blocking User
+SHOWHW                        Operator            Display hardware configuration          
+SIPADDEXT                     Programmer          Add a SIP extension to the local phonebook
+SIPAUDIOMODE                  Programmer          Get or Set SIP audio mode               
+SIPAUTOANSWER                 Operator            Get or Set support for Answer-Mode header
+SIPAUTOANSWERDELAY            Operator            Get or Set auto-answer delay            
+SIPAUTOMODE                   Programmer          Get or Set SIP auto function mode       
+SIPCALLTIMEOUT                Operator            Get or Set call timeout for pending calls
+SIPCODECPRIO                  Administrator       Get or Set audio codec priorities       
+SIPDEFAULTRIng                Programmer          Get or set usage of default ring tones. 
+SIPEARLYMEDIA                 Programmer          Get or Set early media                  
+SIPENABLE                     Programmer          Enable/Disable SIP (RAVA)               
+SIPEXT                        Operator            Display the local address book          
+SIPINFO                       Operator            Show SIP info                           
+SIPINTERFace                  Programmer          Get or Set SIP Interface (LAN, AUX)     
+SIPLOCALEXT                   Programmer          Get or Set SIP local extension          
+SIPLOCALNAME                  Programmer          Get or Set SIP local display name       
+SIPLOCALPORT                  Programmer          Get or Set SIP Local Port number        
+SIPMEDIAPORT                  Programmer          Get or Set SIP media port               
+SIPMODE                       Programmer          Get or Set mode - SERVER or PEER        
+SIPMULTICASTADDRESS           Programmer          Get or Set SIP multicast IP address     
+SIPMULTICASTPORT              Programmer          Get or Set SIP multicast port           
+SIPNAMESRV                    Programmer          Get or Set SIP DNS name server IP address
+SIPPAGEGROUP                  Programmer          Get or Set SIP paging groups as a comma delimited string (A,B,C)
+SIPPROXYSRV                   Programmer          Get or Set SIP proxy server IP address  
+SIPREGTIMEOUT                 Operator            Get or Set registration time out        
+SIPREMEXT                     Programmer          Remove SIP extension from the local phonebook
+SIPREMOTECONFIG               Programmer          Get or Set SIP remote config file for use with current AUTO mode
+SIPRESTART                    Operator            Send SIP configuration parameters to application
+SIPSERVERPORT                 Programmer          Get or Set SIP server Port number       
+SIPSESSIONTIMER               Programmer          Get or Set SIP session parameter(s)     
+SIPSETPORTER                  Operator            Get or Set active Porter                
+SIPSRVIPADDRESS               Programmer          Get or Set SIP server IP address        
+SIPSRVNAME                    Programmer          Get or Set SIP server name              
+SIPSRVPASS                    Programmer          Get or Set SIP server password          
+SIPSRVREALM                   Programmer          Get or Set SIP server realm             
+SIPSRVUSER                    Programmer          Get or Set SIP server username          
+SIPSTATE                      Programmer          Show SIP states                         
+SIPSTUNDOMAIN                 Programmer          Get or Set SIP STUN DOMAIN IP address   
+SIPSTUNSRV                    Programmer          Get or Set SIP STUN server IP address   
+SIPTLS                        Programmer          Get or Set TLS parameters               
+SIPTRANSPORT                  Programmer          Get or Set SIP transport                
+SIPTRUStedcas                 Administrator       Select/List SIP Trusted CA Certificates 
+SIPVIDEO                      Operator            Get or Set SIP video parameters         
+SNMP                          Administrator       Enable/disable Simple Network Management Protocol
+SNMPAccess                    Administrator       Configure Access Rights for SNMP Communities
+SNMPALLowall                  Administrator       Allows All SNMP Managers                
+SNMPCONTAct                   Administrator       Displays Snmp contact information       
+SNMPLOCATion                  Administrator       Displays Snmp location information      
+SNMPMANager                   Administrator       Configure an SNMP manager               
+SNMPMONitor                   Administrator       Configure SNMP Monitoring and trap generation
+SNMPTrap                      Administrator       Send an SNMP trap                       
+SNTP                          Administrator       Configure network time synchronization  
+SONOS                         Programmer          Enable or disable launching Sonos       
+SSHPORt                       Administrator       Enable/Disable and configure SSH port number
+SSHSERVer                     User                Configure the SSH server and the public keys
+SSL                           Administrator       Display/Set SSL type                    
+SSLVERIFY                     Administrator       Display/Set SSL certificate verification.
+STANDBY                       Operator            Puts the panel into standby.            
+STBYTO                        Programmer          Set the standby timeout.                
+SYSLOG                        Operator            Enable/disable system UI log.           
+SYSMSG                        Programmer          Enable/disable system message display.  
+TASKSTAT                      Operator            Lists applications in system            
+TESTDNS                       Operator            Test DNS Server                         
+TESTPAttern                   Operator            Display test patterns.                  
+TIMEZone                      Administrator       Get/Set the timezone                    
+TIMEdate                      Programmer          Get the time and date                   
+TLSVERsion                    Administrator       Set the minimum TLS version.            
+TOUCHONSTARTUp                Administrator       Enable/disable Touch on startup to enter setup mode
+TRACEROUTE                    Administrator       Trace the route of an IP address        
+TYPE                          Operator            Display file contents                   
+UPDATEPassword                User                Update current local user's password    
+UPGRADERESULTS                Operator            Print results of last upgrade command   
+UPTIME                        Operator            Display the time the system is running  
+USERInformation               Administrator       Show access information for a specific user
+USERPAGEAUTH                  Administrator       User page Authentication on/off         
+VERsion                       Operator            Print version to console                
+VIDEOPRIORITY                 Operator            Increase the priority of the video threads
+VKAUTOHIDEtimeout             Operator            Set auto hide time for Virtual key      
+VKBUTTON                      Operator            Set Virtual key button on/off           
+VKENABLE                      Operator            Enable/Disable Virtual key              
+VKLIST                        Operator            Set Virtual key buttons                 
+VKMINBRIGHTness               Operator            Controlling LCD off perfectly or minimum brightness in standby mode.
+VKPOSITION                    Operator            Set Virtual key position                
+VKSHOW                        Operator            Show/Hide Virtual key buttons           
+VKSHOWDUringstandby           Operator            Show/Hide during standby Virtual key buttons
+VKSHOWONwake                  Operator            Show on/off wake Virtual key buttons    
+VKTHEme                       Operator            Virtual key buttons color theme         
+VOICECONTROL                  Programmer          Enable or disable Voice Control         
+VOICELANGUAGE                 Programmer          Configure the language for the voice control of the system.
+WEBPORT                       Administrator       Set port number for Webserver.          
+WEBSERVER                     Administrator       Enable/disable Webserver                
+WHO                           Administrator       Generate a report of the Ethernet consoles
+WHOAmi                        Operator            Display current user's identity         
+XGETfile                      Operator            Use XMODEM to transfer file from ROM    
+XPUTfile                      Operator            Use XMODEM to transfer file to ROM      
+
+TSW-1070>bye
+Disconnecting Bye....

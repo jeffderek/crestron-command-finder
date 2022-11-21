@@ -1,19 +1,20 @@
 {
-  "name": "crestron-command-finder",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "pinia": "^2.0.23",
-    "sass": "^1.56.1",
-    "vue": "^3.2.41",
-    "vue-router": "^4.1.5"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^3.1.2",
-    "vite": "^3.1.8"
-  }
+    "name": "crestron-command-finder",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "create-command-list": "node commands/create-command-list.js",
+        "build": "create-command-list && build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "pinia": "^2.0.23",
+        "sass": "^1.56.1",
+        "vue": "^3.2.41",
+        "vue-router": "^4.1.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^3.1.2",
+        "vite": "^3.1.8"
+    }
 }
