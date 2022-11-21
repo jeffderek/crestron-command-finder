@@ -68,4 +68,3 @@ readFiles(`${__dirname}/info/`, readFileContent, (err) => {
     console.log(err);
 });
 fs.writeFileSync('src/assets/data.json', JSON.stringify(data));
-console.log(data);

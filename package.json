@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "vite",
         "create-command-list": "node commands/create-command-list.js",
-        "build": "create-command-list && build",
+        "build": "node commands/create-command-list.js && vite build",
         "preview": "vite preview"
     },
     "dependencies": {
