@@ -26,6 +26,7 @@ function readFileContent(content) {
 
 function parseCommandList(model, commandList) {
     let commands = commandList.split('\r\n');
+    console.log(commands);
     let commandRegex = /(?<command>\S+)\s+(?<access>\S*)\s+(?<description>.*)/m;
     commands.forEach((command) => {
         let matches = command.match(commandRegex);
@@ -64,15 +65,7 @@ function addAction(command, access, description, model) {
     }
 }
 
-async function delay() {
-    console.log('starting timeout');
-    await setTimeout(() => {
-        console.log('timeout complete');
-    }, 5000);
-}
-
 readFiles(`${__dirname}/info/`, readFileContent, (err) => {
     console.log(err);
 });
 fs.writeFileSync('src/assets/data.json', JSON.stringify(data));
-delay();
