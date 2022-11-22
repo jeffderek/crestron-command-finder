@@ -1,0 +1,278 @@
+
+MC4 Control Console
+
+MC4>
+
+MC4>info
+	Category:          Control System
+	SIMPL:             Level 1
+	SIMPL+:            Level 1
+	DisplayList:       NOT SUPPORTED
+	Web Server:        Enabled: Level 1
+	FTP Transfers:     Enabled: Level 1
+	Ethernet Ports:    1
+	Ethernet Active:   Yes
+	IP Table:          Yes
+	IP Table Format:   DIP: Level 2
+	Max IP Entries:    252
+	IP Masters:        0
+	DHCP Support:      Yes
+	Password:          Yes
+	Front Panel Type:  None
+	NVRAM Size:        262144
+	Removeable Media:  USB
+	USB:               NOT_INSERTED
+	PnP support:       Level 1
+	Network Analyzer:  SUPPORTED: Level 1
+	SSL support:       SUPPORTED: Level 1
+	RConsole support:  SUPPORTED: Level 3
+	System Monitor:    SUPPORTED: Level 4
+	TJI support:       Level 5
+	RTJI support:      Level 2
+	Max Programs:      1
+	MDBGSIGNAL:        SUPPORTED: Level 2
+	Core3UILevel:      3.00
+	Max Host Name:     63
+
+
+MC4>ver -all
+MC4 Cntrl Eng [v2.7000.00052 (Feb 28 2022), #8E8220A9] @E-00107fe994e4
+Build: Feb 28 2022  (4907.451586)
+Updater: 2.7000.00052
+Bootloader: 02.014.002
+Cab: 1.8001.0144
+Mono: 6.12.0.107
+
+IR FPGA: Version: 15
+CCUI Version: 6.0.877229
+XIOSDK: 3.6.0
+IoTSDK: 1.6.0
+Build time: 14:27:09
+Product ID: 0x7D38
+Revision ID: 0x0000
+CPU ID: 0x0008
+PUF: 2.7000.00052.01
+IOPVersion: FPGA [v15] slot:6
+RFGwayVersion: ezsp version 06 stack id 02 stack version 6230
+Forced Auth Mode: True
+FIPS Mode: False
+
+
+MC4>help all
+8021XAUthenticate             Administrator       Enable/Disable 802.1x Authentication.   
+8021XDOMain                   Administrator       Configure/View 802.1x Domain Name.      
+8021XMEThod                   Administrator       Configure/View EAP Method.              
+8021XPASsword                 Administrator       Configure 802.1x Password.              
+8021XSENdpeapver              Administrator       Enable/Disable 802.1x Peap version reporting.
+8021XTRUStedcas               Administrator       Select/List 802.1x Trusted CA Certificates
+8021XUSERname                 Administrator       Configure/View 802.1x User Name.        
+8021XVALidateserver           Administrator       Require Validation Of 802.1x Authentication Server's Certificate.
+ACQuire                       Operator            Start/stop acquire process              
+ADDBLOCKEDip                  Administrator       Add an IP Address to the blocked list   
+ADDDOMAINGroup                Administrator       Create a new domain group               
+ADDDns                        Administrator       Add an entry to DNS server List         
+ADDGroup                      Administrator       Create a new local group                
+ADDHOSTS                      Administrator       Add hosts entries                       
+ADDLOCKEDUser                 Administrator       Add user to the blocked list            
+ADDMaster                     Programmer          Add a master entry to IP table          
+ADDPeer                       Programmer          Add a peer(slave) entry to IP table     
+ADDPUBKEYTouser               Administrator       Add a public key to an existing user account
+ADDUSER                       Administrator       Create a new local user                 
+ADDUSERTogroup                Administrator       Add an existing local or domain user to an existing local group
+ADLOGIN                       Administrator       Active Directory Login                  
+ADLOGOUt                      Administrator       Active Directory Logout                 
+AUCANCEL                      Administrator       Cancel the auto update in progress.     
+AUCHECKNOW                    Administrator       Check for updates now.                  
+AUDEVCONNECTPASS              Administrator       Get/Set the password used by auto update to login to Crestron devices.
+AUDEVCONNECTUSER              Administrator       Get/Set the username used by auto update to login to Crestron devices.
+AUDISALLOWDOWNGRADE           Administrator       If ON will not allow Firmware downgrade else allow firmware downgrade.
+AUDITLogging                  Administrator       Display or Change the current audit logging operation.
+AUENABLE                      Administrator       Enable/disable automatic updates.       
+AUFORCEUPDATENOW              Administrator       Force updates now.                      
+AUMANIFESTURL                 Administrator       Get or Set auto updater manifest URL.   
+AUPASSWORD                    Administrator       Get/Set the password used by auto update to login to the update server.
+AUPLUGINCATALOGURL            Administrator       Get or Set auto updater plugin catalog URL.
+AUPOLLINTERVAL                Administrator       Set how long to wait before checking for updates again.
+AUSTATUS                      Programmer          Reports the auto update status.         
+AUTHentication                Administrator       Authentication on/off                   
+AUTIME                        Administrator       Set a scheduled time for when to check for updates.
+AUTONegotiate                 Administrator       Set Ethernet Auto Negotiation           
+AUUSERNAME                    Administrator       Get/Set the username used by auto update to login to the update server.
+AUVERIFYSIGNATURE             Administrator       If ON perform firmware signature verification else no signature verification.
+BACKUPTC                      Administrator       Backup trust center                     
+BROADcast                     Operator            Enable Error Broadcast                  
+BYE                           Operator            Close user session                      
+CARDS                         Operator            Display Cards Detected in System        
+CD                            Operator            Change directory                        
+CERTIFicate                   Administrator       Add, Remove, List or View Certificates  
+CIPPORT                       Programmer          Set port number for CIP                 
+CLEARAUDITLOG                 Administrator       Clear the audit log.                    
+CLEARCSAUTHENTICATION          Administrator       Clear Control System Authentication credentials.
+CLEARerr                      Operator            Clears the current error log            
+CLOUDPROXYAUTH                Administrator       Sets the authentication method for connecting to a proxy
+CLOUDPROXYURL                 Administrator       Sets the url of the proxy used to make requests
+COPYfile                      Programmer          Copy a file to a different directory    
+CORE3XPANELWEB                Programmer          Configure the core3 XPanel Flash policy server
+COREDUMPSLEEPtime             Operator            Display watchdog coredump sleep time (in seconds)
+CREATECsr                     Administrator       Generate a CSR.                         
+CSPROJECTload                 Administrator       Load the project in Control System      
+CSPROJECTRemove               Administrator       Remove the project from Control System  
+CWSANTICSRF                   Administrator       Enables/disables Anti-csrf feature      
+DATASTOREDELete               Programmer          Clear the Logs for the Specified Program
+DATASTOREEXPORT               Administrator       Export to XML file                      
+DATASTOREIMPORt               Operator            Import from XML file                    
+DATASTORESTATus               Operator            The Data Store Status                   
+DEFRouter                     Administrator       Set default router                      
+DELETEDOMAINGroup             Administrator       Delete an existing domain group         
+DELETEGroup                   Administrator       Delete an existing local group          
+DELETEUser                    Administrator       Delete an existing local user           
+DELete                        Programmer          Remove File(s)                          
+DHCP                          Administrator       Control dynamic IP addressing           
+DHCPEx                        Administrator       Control dynamic IP addressing           
+DHCPOpt                       Administrator       Use FQDN in DHCP Discover Request       
+DIR                           Operator            List files and directories in current directory
+DISABLEREBOOTOFprog0          Operator            Disables repeated reboot of Prog00      
+DOMAINNAMEEx                  Administrator       Set domain name                         
+DOMAinname                    Administrator       Set domain name                         
+ECHo                          Operator            Enable/disable character echoing        
+ENABLEFEature                 Administrator       Enable Disable features                 
+ERASE                         Programmer          Remove file(s)                          
+ERRlog                        Operator            Prints the current error log            
+FGETfile                      Programmer          FTP file from a remote server           
+FIPSMode                      Administrator       Display or change FIPS mode             
+FORCEDREBOOT                  Operator            Forces system reboot                    
+FORMAT                        Operator            Format removeable media                 
+FPUTfile                      Programmer          FTP file to a remote server             
+FREE                          Operator            Show available file space               
+GETAUDITLOG                   Administrator       Retrieve the audit log.                 
+GETCODE                       Operator            Retrieve code needed for eControl2 activation
+GETPAsswordrule               Administrator       Display password rules                  
+HEARTBEATtimeout              Administrator       Set TCP Socket Send Timeout value in Milliseconds
+HELP                          Operator            Display help screens                    
+HOSTname                      Administrator       Set hostname                            
+ICMP                          Administrator       Turn ON/OFF ICMP                        
+ICMPREDIRECT                  Administrator       Enable/disable ICMP Redirect            
+INFO                          Operator            Print Software Capabilities             
+INITIALIZE                    Programmer          Clear file system                       
+IPAddress                     Administrator       Set IP address                          
+IPCONFIG                      Operator            Display/Configure IP Settings           
+IPMask                        Administrator       Set IP subnet mask                      
+IPROUTE                       Operator            Print Kernel IP routing table           
+IPTable                       Operator            Display IP Table                        
+ISDIR                         Operator            Is the parameter a directory            
+JWTALLOWSELFSIGNEdconnection          Administrator       Whether to use Fusion end point with self-signed certificate
+JWTCSPALLOWurlstate           Administrator       Whether frame-ancestor directive of CSP allows a page from being loaded from if
+JWTPUBLICKEYSOUrce            Administrator       Add Public certificate server url       
+JWTPUBLICKEYSTAtus            Administrator       Details of the public key source        
+KILLSOCKET                    Administrator       Close an active TCP console socket      
+LISTACTIVEMODULES             Operator            (*) Get a list of active S+ Modules.
+LISTBLOCKEDips                Administrator       List the blocked IP addresses           
+LISTDNS                       Operator            Display the list of DNS servers         
+LISTDNSEx                     Operator            Display the list of DNS servers         
+LISTGROUPS                    Administrator       List existing local groups              
+LISTGROUPUsers                Administrator       List all existing (local and domain) users in an existing
+LISTLOCKEDUsers               Administrator       List blocked users                      
+LISTPUBKEYFromuser            Administrator       List existing public key from an existing user account
+LISTUSERS                     Administrator       List of users authenicated on thus system
+LOADIPTABle                   Programmer          Load New IPTable                        
+LOGINSTAT                     Administrator       Set time to count valid logins          
+LOGOFF                        Operator            Logoff current user                     
+MAKEDIR                       Programmer          Create a Directory                      
+MDNSRETURN                    Administrator       Change nsswitch to return or not return on mdns NOTFOUND
+MIPTable                      Programmer          Display Master IP Table                 
+MOVEfile                      Programmer          Move a file to a different directory    
+MYCRESTRON                    Programmer          Setup MyCrestron Domain & Password, and attempt to register system.
+NUMNOHBRESPonsecnt            Administrator       Set maximum number of no response allowed for CIP Heartbeat Messaging
+NVRAMCLEAR                    Programmer          Clear NVRAM with zeros                  
+NVRAMGET                      Operator            Retrieve contents of NVRAM from the system
+NVRAMPUT                      Programmer          Send contents of NVRAM to the system    
+NVRAMREBOOT                   Operator            Print reboot information                
+OCSP                          Administrator       Display/Set OCSP configuration for SSL communication.
+PASSTO                        Operator            Enter passto mode console<->device      
+PING                          Operator            Ping remote node                        
+PRINTAUDITLOG                 Administrator       Print the audit log.                    
+PROGREGister                  Programmer          Registers/Unregisters the specified program
+PROGRESet                     Operator            Restarts the specified program          
+PROGUPTIME                    Operator            (*) Display the time the program is running
+PROXY                         Administrator       Configure Proxy                         
+PROXYALLOW                    Administrator       Setup list of hosts that need to use Proxy
+RAMFree                       Operator            Show available RAM file space           
+REBOOT                        Operator            Reboot the device                       
+REMBLOCKEDip                  Administrator       Remove an IP Address from the blocked list
+REMDns                        Administrator       Remove an entry from DNS server List    
+REMLOCKEDUser                 Administrator       Remove user from the blocked list       
+REMMaster                     Programmer          Remove a master entry to IP table       
+REMOVEDIR                     Programmer          Remove a Directory                      
+REMOVEPUBKEYFromuser          Administrator       Remove an existing public key from an existing user account
+REMOVEUserfromgroup           Administrator       Remove an existing local or domain user from an existing local group
+REMPeer                       Programmer          Remove a peer(slave) entry to IP table  
+REPORTCRESNET                 Operator            Show all devices on the main cresnet leg
+REPortnetdev                  Operator            Display infiNET EX and ER device idstrings
+RESETPassword                 Administrator       Reset an existing local user's password 
+RESTORETc                     Administrator       Restore trust center - One time write function!
+RESTORe                       Administrator       Restore factory defaults                
+RFDEvinfo                     Operator            Display rf devices information          
+RFROAMING                     Operator            Display or set rf roaming support       
+RMLOGerr                      Operator            Enable logging errors to the file.      
+RMTRANSfer                    Programmer          Transfer a project to/from removable media
+ROUTEADD                      Administrator       Add a static IP route                   
+ROUTEDELete                   Administrator       Delete a static IP route                
+ROUTEPRINT                    Administrator       Print Kernel IP routing table           
+RPRTTSIDByuid                 Operator            Display the rf device TSID by given UID 
+RPRTTSIDTable                 Operator            Display rf devices id strings with TSID 
+SECURECIPport                 Programmer          Set the secure (SSL) port number for CIP
+SECUREGatewaymode             Administrator       Set/Display secure gateway operation mode.
+SECUREWebport                 Administrator       Set Secure(SSL) port number for Web.    
+SECUREWEBSocketport           Programmer          Set secure Websocket port               
+SETCSAUTHENTICATION           Administrator       Set Control System Authentication credentials.
+SETLOCKOUTTIME                Administrator       Set time that an IP is blocked from login
+SETLOGINAttempts              Administrator       Set the number of login attempts before blocking IP
+SETLogoffidletime             Administrator       Set idle time allowed before current user is automatically logged off
+SETPAsswordrule               Administrator       Set password rules                      
+SETRFIDBYTsid                 Operator            Set rf device(s) RFID by TSID           
+SETRFIDBYUuid                 Operator            Set rf device(s) RFID by UID            
+SETTsidbyuid                  Operator            Set rf device TSID by UID               
+SETUSERLOCKOUTTime            Administrator       Set time that a user is blocked from login
+SETUSERLOGINATtempts          Administrator       Set the number of login attempts before blocking User
+SHOWEXtraerrors               Operator            Enables/disables Show Extra Command     
+SHOWHW                        Operator            Display hardware configuration          
+SNTP                          Administrator       Configure network time synchronization  
+SOCKETSendtimeout             Administrator       Set TCP Socket Send Timeout value in Milliseconds
+SPLUSTasks                    Operator            (*) Get a list of running S+ Tasks.
+SSHPORt                       Administrator       Enable/Disable and configure SSH port number
+SSHSERVer                     User                Configure the SSH server and the public keys
+SSL                           Administrator       Display/Set SSL type                    
+SSLVERIFY                     Administrator       Display/Set SSL certificate verification.
+STOPPROGram                   Operator            Stops the specified program             
+SUPPORTRSAAES128ciph          Administrator       Enable/Disable use of TLS_RSA_WITH_AES_128_CBC_SHA cipher.
+SYSLOG                        Operator            Enable/disable system UI log.           
+SYSTEMREADY                   Programmer          Display the system ready status         
+TASKSTAT                      Operator            Lists applications in system            
+TCPKEEPALIVE                  Programmer          Enable/disable TCP Keep Alive           
+TESTDNS                       Operator            Test DNS Server                         
+TIMEZone                      Administrator       Get/Set the timezone                    
+TIMEdate                      Programmer          Get the time and date                   
+TLSVERsion                    Administrator       Set the minimum TLS version.            
+TOP                           Operator            Lists proceseses and threads in system  
+TYPE                          Operator            Display file contents                   
+UCMD                          Operator            (*) Send a command from the console to the user program
+UNACQUIREBYTsid               Operator            Unacquire device by TSID                
+UNACQUIREBYUuid               Operator            Unacquire device by UID                 
+UPDATEPassword                User                Update current local user's password    
+UPGRADERESULTS                Operator            Print results of last upgrade command   
+UPLOAD                        Programmer          )Load file into cresnet device          
+UPTIME                        Operator            Display the time the system is running  
+USERInformation               Administrator       Show access information for a specific user
+USERPAGEAUTH                  Administrator       User page Authentication on/off         
+USERPROGCMD                   Operator            (*) Send a command from the console to the user program
+VERsion                       Operator            Print version to console                
+WEBINIT                       Programmer          Initialize Webserver default file.      
+WEBPORT                       Administrator       Set port number for Webserver.          
+WEBSERVER                     Administrator       Enable/disable Webserver                
+WHO                           Administrator       Generate a report of the Ethernet consoles
+WHOAmi                        Operator            Display current user's identity         
+XGETfile                      Operator            Use XMODEM to transfer file from ROM    
+XPUTfile                      Operator            Use XMODEM to transfer file to ROM      
+
+MC4>bye
+Disconnecting Bye....

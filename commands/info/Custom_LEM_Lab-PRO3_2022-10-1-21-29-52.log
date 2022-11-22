@@ -1,0 +1,320 @@
+PRO3 Console
+
+PRO3>
+PRO3>info
+  Category:          Control System
+  SIMPL:             Level 1
+  SIMPL+:            Level 1
+  DisplayList:       NOT SUPPORTED
+  Web Server:        Enabled: Level 1
+  FTP Transfers:     Disabled: Level 1
+  Ethernet Ports:    2
+  Ethernet Active:   Yes
+  IP Table:          Yes
+  IP Table Format:   DIP: Level 2
+  Max IP Entries:    252
+  IP Masters:        0
+  DHCP Support:      Yes
+  Password:          Yes
+  Front Panel Type:  FrontPanel
+  Front Panel Slot:  13
+  NVRAM Size:        262144
+  Removeable Media:  USB
+  USB:               NOT_INSERTED
+  PnP support:       Level 1
+  Network Analyzer:  SUPPORTED: Level 1
+  SSL support:       SUPPORTED: Level 1
+  RConsole support:  SUPPORTED: Level 3
+  System Monitor:    SUPPORTED: Level 4
+  TJI support:       Level 5
+  RTJI support:      Level 2
+  Max Programs:      10
+  MDBGSIGNAL:        SUPPORTED: Level 2
+  Core3UILevel:      3.00
+  Max Host Name:     15 
+
+
+PRO3>ver -all
+PRO3 Cntrl Eng [v1.8001.4666.20960 (Oct 11 2021), #00E9AC33] @E-00107f80d372
+Build: 11:38:41  Oct 11 2021 (4666.20960)
+Cab: 1.8001.0075
+Applications:  1.0.7953.20038
+Updater: 1.0.33
+Bootloader: 1.30.00
+RouterBootVersion: 4  
+RouterVersion: 1.004.0017 
+IOPVersion: S3 - IO Processor [v1.3177.00007, #FFFFFFFF] slot:9 
+FrontPanelVersion: 1.0.7 
+PRO3-SetupProgram: 1.003.0024 
+PUF: 1.8001.0075
+FORCED_AUTH_MODE: False 
+CIPCommandProcessor.exe: 1.0.7954.18116
+ConsoleServiceCE.EXE: 1.0.7954.16468
+PUFHandler.exe: 1.0.0.6
+SystemCommandProcessor.exe: 1.0.7954.18071
+TLDM.exe: 1.0.7953.19932
+creslog.exe: 1.0.7953.19387
+AutoUpdateEngine.exe: 1.0.0.0
+AutoUpdateInterface.exe: 1.0.0.0
+CustomAppManager.exe: 1.0.7954.17996
+LogicEngine.exe: 1.0.7953.19970
+BACnet.exe: 1.0.7953.19748
+RouterTransportProcess.exe: 1.0.7953.19728
+DisplayManager.exe: 1.0.7953.19868
+CrestronMonitor.exe: 1.0.7953.19931
+AUFramework.DLL: 1.0.0.1
+CIP_PROTO_UTIL.DLL: 1.0.7954.16495
+CedbDataStoreCommandFunctions.DLL: 1.0.7954.16941
+ConsoleServiceBase.DLL: 1.0.7954.16465
+CrestronFTCNet.DLL: 1.0.0.0
+CwsIISExt.dll: 1.0.0.7
+EthCmdUtility.dll: 1.0.7953.18576
+EthernetTransport.dll: 1.0.7954.18075
+PROTO_ENGINE.DLL: 1.0.7954.16500
+PROTO_IPTABLE.DLL: 1.0.7954.16511
+PROTO_TCP.DLL: 1.0.7954.16788
+PROTO_TLDM.DLL: 1.0.7954.16837
+PROTO_UDP.DLL: 1.0.7954.16546
+PackageUpdate.dll: 1.0.0.20
+SimplSharpCustomAttributesInterface.DLL: 1.0.0.0
+TLDMInterfaceDLL.dll: 1.0.7953.18658
+USBTransport.dll: 1.0.7954.18074
+Utilities.dll: 1.0.7953.18179
+CrestronMIB.dll: 1.0.7953.19802
+iss_certdb.dll: 4, 8, 1, 0
+WebSocketClient.dll: 1, 0, 0, 1
+TSTPlatform.dll: 1.0.7953.19809
+RouterInterfaceDLL.dll: 1.0.7953.19745
+SimplSharpCWSHelperInterface.dll: 2.0.0.0
+GAC_Newtonsoft.Json.Compact_v3_5_0_0_cneutral_1.dll: 3.5.0.0
+GAC_Newtonsoft.Json.Compact_v4_0_8_0_cneutral_1.dll: 4.0.8.0
+GAC_CedbDataStoreInterface_v1_0_0_0_cneutral_1.dll: 1.0.0.0
+GAC_ConsoleServiceCE_v1_0_7954_16468_cneutral_1.dll: 1.0.7954.16468
+GAC_CrestronWebScriptingAPI_v2_0_0_0_cneutral_1.dll: 2.0.0.0
+GAC_ManagedUtilities_v1_0_7954_16415_cneutral_1.dll: 1.0.7954.16415
+GAC_ManagedUtilitiesCE_v1_0_7954_16461_cneutral_1.dll: 1.0.7954.16461
+GAC_SmartThreadPoolCE_v1_0_7954_16477_cneutral_1.dll: 1.0.7954.16477
+GAC_System.Data.SQLite_v1_0_93_0_cneutral_1.dll: 1.0.93.0
+
+PRO3>help all
+8021XAUthenticate        Administrator      Enable/Disable 802.1x Authentication.
+8021XDOMain              Administrator      Configure/View 802.1x Domain Name.
+8021XMEThod              Administrator      Configure/View EAP Method.
+8021XPASsword            Administrator      Configure 802.1x Password.
+8021XSENdpeapver         Administrator      Enable/Disable 802.1x Peap version reporting.
+8021XTRUStedcas          Administrator      Select/List 802.1x Trusted CA Certificates.
+8021XUSERname            Administrator      Configure/View 802.1x User Name.
+8021XVALidateserver      Administrator      Require Validation Of 802.1x Authentication Server's Certificate.
+ADDBLOCKEDip             Administrator      Add an IP Address to the blocked list
+ADDDns                   Administrator      Add an entry to DNS server List
+ADDDOMAINGroup           Administrator      Add a domain group to this control system
+ADDGroup                 Administrator      Create a new local group
+ADDLICense               Administrator      Add application license.
+ADDLOCKEDUser            Administrator      Add a user account to the locked list
+ADDMaster                Programmer         Add a master entry to IP table
+ADDPeer                  Programmer         Add a peer(slave) entry to IP table
+ADDPOrtmap               Administrator      Add a port map to the port forwarding table.
+ADDUSER                  Administrator      Create a new local user
+ADDUSERTogroup           Administrator      Add an existing local or domain user to an existing local group
+ADLOGIn                  Administrator      Login to Active Directory server
+ADLOGOut                 Administrator      Logout from Active Directory server
+APPLEHOMEKIT             Programmer         Enables/Disables Apple Home Kit on control system
+AUCANCEL                 Administrator      Cancel the auto update in progress.
+AUCHECKNOW               Administrator      Check for updates now.
+AUDEVCONNECTPASS         Administrator      Get/Set the password used by auto update to login to Crestron devices.
+AUDEVCONNECTUSER         Administrator      Get/Set the username used by auto update to login to Crestron devices.
+AUDITLogging             Administrator      Display or Change the current audit logging operation.
+AUENABLE                 Administrator      Enable/disable automatic updates.
+AUFORCEUPDATENOW         Administrator      Force updates now.
+AUMANIFESTURL            Administrator      Get or Set auto updater manifest URL.
+AUPASSWORD               Administrator      Get/Set the password used by auto update to login to the update server.
+AUPLUGINCATALOGURL       Administrator      Get or Set auto updater plugin catalog URL.
+AUPOLLINTERVAL           Administrator      Set how long to wait before checking for updates again.
+AUSTATUS                 Programmer         Reports the auto update status.
+AUTHentication           Administrator      Authentication on/off
+AUTIME                   Administrator      Set a scheduled time for when to check for updates.
+AUTONEGot                Administrator      Set auto negotiation for Ethernet Device
+AUUSERNAME               Administrator      Get/Set the username used by auto update to login to the update server.
+BRIDGEDEBUG              Programmer         Turn on/off bridge debug
+BROADcast                Operator           Enable/disable broadcasting of errors.
+BYE                      Operator           Close user session for this connection
+CARDS                    Operator           Display Cards Detected in System
+CD                       Operator           Change Directory
+CERTIFicate              Administrator      Add, Remove, List or View Certificates
+CIPHER                   Administrator      Set/Get the class of ciphers/algorithms used for the encryption
+CIPPORT                  Programmer         Set port number for CIP
+CLEARerr                 Operator           Clears the current error log.
+CLEARAUDITLOG            Administrator      Clear the audit log.
+CLEARCSAUTHENTICATION    Administrator      Clear Control System Authentication credentials.
+CLOUDPROXYAUTH           Administrator      Sets the authentication method for connecting to a proxy
+CLOUDPROXYURL            Administrator      Sets the url of the proxy used to make requests
+COPYfile                 Programmer         Copy a file to a different directory
+CORE3XPANELWEB           Programmer         Configure the core3 XPanel Flash policy server
+CSINAutomode             Operator           Display if the router is in the automatic/Manual mode
+CSPROJECTload            Administrator      Load the project in Control System
+CSPROJECTRemove          Administrator      Remove the project from Control System
+CSROUTerprefix           Administrator      Display or Configure Control Subnet's Static Router Prefix.
+DATASTOREDELete          Programmer         Clear the Logs for the Specified Program
+DATASTOREEXPORT          Administrator      Export to XML file
+DATASTOREIMPORt          Operator           Import from XML file
+DATASTORESTATus          Operator           The Data Store Status
+DEFRouter                Administrator      Set default router.
+DELete                   Programmer         Remove file(s)
+DELETEDOMAINGroup        Administrator      Delete a domain group that was previously added to this control system
+DELETEGroup              Administrator      Delete an existing local group
+DELETEUser               Administrator      Delete an existing local user
+DELLICense               Administrator      Delete application(s) license.
+DHCP                     Administrator      Enable/disable dynamic IP addressing.
+DHCPLeases               Administrator      Display Control Subnet's DHCP Leases.
+DHCPOPT                  Administrator      Sets DHCP Server Options
+DIR                      Operator           List files and directories in current directory
+DOMAinname               Administrator      Set the domain name for DNS environment
+DOMAINNAMEEx             Administrator      Set the domain name for multiple adapters
+ECHO                     Operator           Enable/disable character echoing
+ENABLEFEature            Administrator      Enable/disable optional features
+ERASE                    Programmer         Remove file(s)
+ERRlog                   Operator           Prints the current error log.
+ETHWdog                  Administrator      Enable/disable Ethernet Watchdog.
+FGETfile                 Programmer         Uses built-in (S)FTP/HTTP(S) client to transfer file from the server to ROM
+FORCEDREBOOT             Operator           Forces system reboot
+FORMAT                   Programmer         Format external memory card
+FPUTfile                 Operator           Uses built-in (S)FTP/HTTP(S) client to transfer file from ROM to the server
+FREE                     Operator           Show available file space
+GETAUDITLOG              Administrator      Retrieve the audit log.
+GETCODE                  Operator           Retrieve code needed for eControl2 activation
+GETPAsswordrule          Administrator      Get password rules for local users
+HEARTBEATtimeout         Administrator      Set TCP Socket Send Timeout value in Milliseconds
+HELP                     Operator           Display help screens
+HKPAUSE                  Programmer         Pause bridge
+HKRESTORE                Programmer         Restore bridge to default and remove all registered devices
+HKRESUME                 Programmer         Resume bridge
+HOSTname                 Administrator      Set the host name for DNS environment
+ICMP                     Administrator      Enable/disable ICMP ping
+ICMPREDIRECT             Administrator      Enable/disable ICMP Redirect
+INFO                     Operator           Print Software Capabilities
+INITIALIZE               Programmer         Clear file system
+IPAddress                Administrator      Set IP address.
+IPCONFIG                 Operator           Display/Configure IP Settings
+IPMask                   Administrator      Set IP Subnet Mask.
+IPTable                  Operator           Display IP Table
+ISDIR                    Operator           Is the parameter a directory
+ISOLATENETworks          Administrator      Isolate The LAN and Control Subnet Networks.
+JWTALLOWSELFSIGNEdconne  Administrator      Whether to use Fusion end point with self-signed certificate
+JWTPUBLICKEYSOUrce       Administrator      Add Public certificate server url
+JWTPUBLICKEYSTAtus       Administrator      Details of the public key source
+KILLSOCKET               Administrator      Close an active TCP console socket
+LISTBLOCKEDip            Administrator      List the blocked IP addresses
+LISTDNS                  Operator           Display the list of DNS servers
+LISTDOMAINGroups         Administrator      List domain groups that were added to this control system
+LISTGROUPS               Administrator      List existing local groups
+LISTGROUPUsers           Administrator      List all existing (local and domain) users in an existing local group
+LISTLOCKEDUsers          Administrator      List the locked user accounts
+LISTUIversion            Operator           View List UI Version.
+LISTUSERS                Administrator      List of users authenticated on this system
+LOADIPTABle              Programmer         Load New IPTable
+LOGOFF                   User or Connect    Logoff current user
+MAKEDIR                  Programmer         Create a Directory
+MESSage                  Operator           Display a message on the screen.
+MIPTable                 Programmer         Display Master IP Table
+MOVEfile                 Programmer         Move a file to a different directory
+MYCRESTRON               Programmer         Setup MyCrestron Domain & Password, and attempt to register system
+NATENAble                Operator           Enable/disable Network Address Translator (NAT)
+NETSTAT                  Operator           Displays protocol statistics and current TCP/IP network connections
+NTLMAUthentication       Administrator      Enable web server NTLM authentication.
+NUMNOHBRESPonsecnt       Administrator      Set maximum number of no response allowed for CIP Heartbeat Messaging
+NVRAMCLEAR               Programmer         Clear NVRAM with zeros
+NVRAMGET                 Operator           Retrieve contents of NVRAM from the system
+NVRAMPUT                 Programmer         Send contents of NVRAM to the system
+NVRAMREBOOT              Operator           Print reboot information
+OCSP                     Administrator      Display/Set OCSP configuration for SSL communication.
+OSD                      Programmer         Show OSD state.
+PASSTO                   Operator           Enter passto mode console<->device
+PERSISTENTLOG            Administrator      Start PersistentLog on system boot
+PING                     Operator           Ping Remote Node
+PRINTAUDITLOG            Administrator      Print the audit log.
+PROGREGister             Programmer         Registers/Unregisters the specified program
+PROGRESet                Operator           Restarts the specified program
+PROGUPTIME               Operator           (*) Display the time the program is running
+RAMFree                  Operator           Show available RAM file space
+REBOOT                   Operator           Perform system reboot
+REMBLOCKEDip             Administrator      Remove an IP Address from the blocked list
+REMDns                   Administrator      Remove an entry to DNS server List
+REMLOCKEDUser            Administrator      Remove a user account from the locked list
+REMMaster                Programmer         Remove a master entry to IP table
+REMOTESYSlog             Administrator      Enable/disable remote system logging of errors.
+REMOVEDIR                Programmer         Remove a Directory
+REMOVETBCLIENT           Programmer         Removes Console Client Configuration
+REMOVEUserfromgroup      Administrator      Remove an existing local or domain user from an existing local group
+REMPeer                  Programmer         Remove a peer(slave) entry to IP table
+REMPOrtmap               Administrator      Remove a port map from the port forwarding table.
+REPORTCRESNET            Operator           Show all devices on the main cresnet leg
+RESERVEDLeases           Administrator      Display/Update Control Subnet's Reserved DHCP Leases.
+RESETPassword            Administrator      Reset an existing local user's password
+RESTORe                  Administrator      Restore factory defaults
+RMLOGerr                 Operator           Enable logging errors to the file.
+RMTRANSfer               Programmer         Transfer a project to/from removable media
+ROUTERUPLOAD             Administrator      Upload firmware to the router
+ROUTERUPTIME             Operator           Indicates router uptime
+SECURECIPport            Programmer         Set Secure(SSL) port number for CIP
+SECUREGatewaymode        Administrator      Set/Display secure gateway operation mode.
+SECUREWebport            Administrator      Set Secure(SSL) port number for Web.
+SECUREWEBSocketport      Programmer         Set secure Websocket port
+SETCSAUTHENTICATION      Administrator      Set Control System Authentication credentials.
+SETLogoffidletime        Administrator      Set idle time allowed before current user is automatically logged off
+SETLOCKOUTTIME           Administrator      Set time that an IP is blocked from login
+SETLOGINAttempts         Administrator      Set the maximum number of login attempts before a user is blocked
+SETPAsswordrule          Administrator      Set password rules for local users
+SETTBCLIENTCONNFRVR      Programmer         Set Console Client to try and reconnect after a disconnect
+SETTBCLIENTIPA           Programmer         Set Console Client Server IP Address
+SETTBCLIENTNUMRETRY      Programmer         Set Console Client number of retries
+SETTBCLIENTPORTNUM       Programmer         Set Console Client Server Port Number
+SHOWARPtable             Operator           Display interface ARP table
+SHOWEXTRAerrors          Operator           Enables extended errors
+SHOWHW                   Operator           Display hardware configuration
+SHOWLICENSE              Operator           Display list of licensed application(s).
+SHOWLICENSEEX            Operator           Display list of licensed application(s).
+SHOWPORTMAP              Administrator      Display the current portmaps for the router.
+SNTP                     Administrator      Configure network time synchronization
+SOCKETSendtimeout        Administrator      Set TCP Socket Send Timeout value in Milliseconds
+SSDEBUGENABLE            Administrator      Enable/disable S+ and S# application debugging for programmers
+SSHPORT                  Administrator      Set/Get the SSH Port
+SSHSERVer                Administrator      Configure the SSH server and the public keys
+SSL                      Administrator      Display/Set SSL type.
+SSLVERIFY                Administrator      Display/Set SSL certificate verification.
+SSPTASKs                 Operator           (*) Show currently executing user threads in SIMPL# Pro.
+STARTPROGAFTERROUTER     Programmer         Delay starting programs until Control Subnet router has been initialized
+STARTTBCLIENT            Programmer         Enables Console Client Connection
+STOPPROGram              Operator           Stops the specified program
+STOPTBCLIENT             Programmer         Disable Console Client Connection
+SUPPORTRSAAES128ciph     Administrator      Enable/Disable use of TLS_RSA_WITH_AES_128_CBC_SHA cipher.
+SYSLOG                   Operator           Enable/disable system UI log.
+SYSMSG                   Programmer         Enable/disable system message display.
+SYSTEMKEY                Administrator      Display system key.
+TCPKEEPALIVE             Programmer         Enable/disable TCP Keep Alive
+TELNETport               Administrator      Enable/disable the Telnet port
+TESTDNS                  Operator           Test DNS Server
+TIMEdate                 Administrator      Set the time and date
+TIMEZone                 Administrator      Set the timezone
+TLSVERsion               Administrator      Set the minimum TLS version.
+TRANSFERLICense          Administrator      Transfer application license.
+TYPE                     Operator           Display file contents
+UCMD                     Operator           (*) Send a command from the console to the user program
+UPDATEPassword           Operator           Update current local user's password
+UPLOAD                   Programmer         )Load file into cresnet device
+UPTIME                   Operator           Display the time the system is running
+USERINFOrmation          Administrator      Show access information for a specific user.
+USERPAGEAuth             Administrator      User Web Page Authentication on/off
+USERPROGCMD              Operator           (*) Send a command from the console to the user program
+VERsion                  Operator           Version Command
+WEBINIT                  Programmer         Initialize Webserver default file.
+WEBLOGINDEFaultdomain    Administrator      Set Web Default AD Domain name.
+WEBPORT                  Administrator      Set port number for Webserver.
+WEBSERVer                Administrator      Enable/disable Webserver.
+WHO                      Administrator      Generate a report of the Ethernet consoles
+WHOAmi                   Operator           Display current user's identity
+XGETfile                 Operator           Use XMODEM to transfer file from ROM
+XPUTfile                 Programmer         Use XMODEM to transfer file to ROM
+
+    (*) - Add :InstanceNum after the command to redirect to particular instance
+
+PRO3>bye
