@@ -36,10 +36,10 @@ function parseCommandList(model, commandList) {
 }
 
 function addAction(command, access, description, model) {
-    if (description.startsWith('(*)')) {
-        // These are custom user commands for specific projects
-        return;
-    }
+    // if (description.startsWith('(*)')) {
+    //     // These are custom user commands for specific projects
+    //     return;
+    // }
 
     let action = data.actions.find((action) => action.command == command);
     if (action) {
