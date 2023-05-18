@@ -1,0 +1,289 @@
+Crestron Information Tool v3.7.0.986 Results
+Started at 5/18/2023 9:08:15 AM Eastern Daylight Time
+Using Custom Command List: C:\Users\Admin\Documents\Crestron\InformationTool\Command_Lists\ccf-info-tool.txt
+
+Discovered Device Info:
+      ModelName : DM-NVX-360
+       Hostname : DEC-ROOM-B-LEFT
+      IpAddress : 172.22.178.235
+       Firmware : 7.1.5259.00030
+      BuildDate : Sep  2 2022
+           TSID : 
+   SerialNumber : 2303NEJ05109
+     MacAddress : C442682ECDEB
+
+
+
+DM-NVX-360 Control Console
+
+DM-NVX-360>========== ver -all ==========
+
+
+DM-NVX-360>v========== info ==========
+er -all
+DM-NVX-360 [v7.1.5259.00030 (Sep  2 2022), %2303NEJ05109] @E-c442682ecdeb
+Build: Sep  2 2022  (474508)
+Updater: 7.1.5259.00030
+Bootloader: 2.01.112
+CCUI Version: 1.42.884011
+XIOSDK: 3.8.1
+IoTSDK: 1.8.0
+Build time: 17:05:40
+Product ID: 0x7F0D
+Revision ID: 0x0000
+HDCP2X-SKE:HDCP2X-SKE [v1.3803.14434, #3F71A646A8]
+HDCP2X-SKE:PRE-BOOT [v001.0000.022]
+HDCP2X-SKE:BOOTLOADER [v001.0000.382]
+NIOS: NVX-D360 [v1.5007.00028, #00000000] Stream:a5.0
+NIOS: BUILD_TIME : Jul 19 2022 09:35:36
+NIOS: PRODUCT_NAME : NVX_D360
+NIOS: MODE : RX
+NIOS: VAR : 3
+NIOS: DSP : NONE
+NIOS: HWREV : 0
+NIOS: SFP : None
+FPGA: VERSION major:3 minor:1
+
+FPGA: HPS2NIOS_REG 0x801f1d02
+
+FPGA: BUILD_DATE 7272022
+
+FPGA: BUILD_TIME 182101
+
+FPGA: BUILD_NUMBER 2946141
+
+FPGA: IPXE VERSION major:0 internal:0 date:0
+
+FPGA: IPXD VERSION major:6 internal:156 date:211123
+
+USB: 2.0.1
+
+UUID: 00000000-0000-4002-0059-e28808c70401
+
+PUF: 7.1.5259.00030
+Video Player: 5.0
+Forced Auth Mode: True
+FIPS Mode: True
+
+
+DM-NVX-360>in========== hidhelp all ==========
+fo
+	Category:          DM
+	DisplayList:       NOT SUPPORTED
+	Web Server:        Enabled: Level 1
+	FTP Transfers:     Enabled: Level 1
+	Ethernet Ports:    1
+	Ethernet Active:   Yes
+	IP Table:          Yes
+	IP Masters:        16
+	Max IP Entries:    16
+	DHCP Support:      Yes
+	Password:          Yes
+	Front Panel Type:  PushButtons
+	SSL support:       SUPPORTED: Level 1
+	RConsole support:  SUPPORTED: Level 3
+	System Monitor:    SUPPORTED: Level 4
+	TJI support:       Level 2
+	Core3UILevel:      0.00
+	Max Host Name:     63
+
+
+DM-NVX-360>h========== hidhelp user ==========
+idhelp all
+8021XAUthenticate             Administrator       Enable/Disable 802.1x Authentication.   
+8021XDOMain                   Administrator       Configure/View 802.1x Domain Name.      
+8021XMEThod                   Administrator       Configure/View EAP Method.              
+8021XPASsword                 Administrator       Configure 802.1x Password.              
+8021XSENdpeapver              Administrator       Enable/Disable 802.1x Peap version reporting.
+8021XTRUStedcas               Administrator       Select/List 802.1x Trusted CA Certificates
+8021XUSERname                 Administrator       Configure/View 802.1x User Name.        
+8021XVALidateserver           Administrator       Require Validation Of 802.1x Authentication Server's Certificate.
+ADDBLOCKEDip                  Administrator       Add an IP Address to the blocked list   
+ADDDOMAINGroup                Administrator       Create a new domain group               
+ADDDns                        Administrator       Add an entry to DNS server List         
+ADDGroup                      Administrator       Create a new local group                
+ADDLOCKEDUser                 Administrator       Add user to the blocked list            
+ADDMaster                     Programmer          Add an entry to IP table                
+ADDPUBKEYTouser               Administrator       Add a public key to an existing user account
+ADDPeer                       Programmer          Add an entry to Peers IP table          
+ADDREMOTeweb                  Programmer          Add an entry to Remote Web Connections table
+ADDUSER                       Administrator       Create a new local user                 
+ADDUSERTogroup                Administrator       Add an existing local or domain user to an existing local group
+ADLOGIN                       Administrator       Active Directory Login                  
+ADLOGOUt                      Administrator       Active Directory Logout                 
+AUCHECKNOW                    Programmer          Check for updates now.                  
+AUDITLogging                  Administrator       Display or Change the current audit logging operation.
+AUENABLE                      Programmer          Enable/disable automatic updates.       
+AUFORCEUPDATENOW              Programmer          Force updates now.                      
+AUMANIFESTURL                 Programmer          Get or Set auto updater manifest URL.   
+AUPASSWORD                    Programmer          Get or Set auto updater password.       
+AUPOLLINTERVAL                Programmer          Set how long to wait before checking for updates again.
+AUSTATUS                      Programmer          Reports the auto update status.         
+AUTHentication                Administrator       Authentication on/off                   
+AUTIME                        Programmer          Set a scheduled time for when to check for updates.
+AUTODiscovery                 Operator            Commands for Ethernet auto discovery    
+AUUSERNAME                    Programmer          Get or Set auto updater username.       
+AUVERIFY                      Programmer          Configure verification when negotiating TLS and SSL connections.
+BATRECAL                      Operator            Recalibrate new battery in TSR310       
+BROADcast                     Operator            Enable Error Broadcast                  
+BYE                           Operator            Close user session                      
+CARDS                         Operator            Display Cards detected in system        
+CD                            Operator            Change directory                        
+CERTIFicate                   Administrator       Add, Remove, List or View Certificates  
+CIPPORT                       Programmer          Set port number for CIP                 
+CIPSERVERPORT                 Programmer          Set port number for CIP Server          
+CIPTIMEOUT                    Operator            Set/Get CIP connection timeout          
+CLEARAUDITLOG                 Administrator       Clear the audit log.                    
+CLEARCSAUTHENTICATIon          Administrator       Clear Control System Authentication     
+CLEARerr                      Operator            Clears the current error log            
+CONFIGUTILS                   Administrator       Configuration utilities for data export and import
+COPYfile                      Programmer          Copy a file to a different directory    
+CREATECsr                     Administrator       Generate a CSR.                         
+CWSANTICSRF                   Administrator       Enables/disables Anti-csrf feature      
+DEFRouter                     Administrator       Set default router                      
+DELETEDOMAINGroup             Administrator       Delete an existing domain group         
+DELETEGroup                   Administrator       Delete an existing local group          
+DELETEUser                    Administrator       Delete an existing local user           
+DELete                        Programmer          Remove File(s)                          
+DHCP                          Administrator       Control dynamic IP addressing           
+DHCPEx                        Administrator       Control dynamic IP addressing           
+DHCPOpt                       Administrator       Use FQDN in DHCP Discover Request       
+DIR                           Operator            List files and directories in current directory
+DISPLAYSIZe                   Operator            Set Display Size                        
+DOMAINNAMEEx                  Administrator       Set domain name                         
+DOMAinname                    Administrator       Set domain name                         
+ECHo                          Operator            Enable/disable character echoing        
+ENABLEfeature                 Administrator       Enables/disables specified feature      
+ERASE                         Programmer          Remove file(s)                          
+ERRlog                        Operator            Prints the current error log            
+FGETfile                      Programmer          FTP file from a remote server           
+FIPSMode                      Administrator       Display or change FIPS mode             
+FORCEDREBOOT                  Operator            Forces system reboot                    
+FPUTfile                      Programmer          FTP file to a remote server             
+FREE                          Operator            Show available file space               
+GETAUDITLOG                   Administrator       Retrieve the audit log.                 
+GETPAsswordrule               Administrator       Display password rules                  
+HDCPRECOVERY                  Administrator       Auto reset HDCP                         
+HEARTBEATtimeout              Administrator       Set/Get heartbeat timeout               
+HELP                          Operator            Display help screens                    
+HOSTname                      Administrator       Set hostname                            
+HPDRECOVERY                   Administrator       Auto reset HPD                          
+ICMP                          Administrator       Turn ON/OFF ICMP                        
+INFO                          Operator            Print Software Capabilities             
+INITIALIZE                    Programmer          Clear file system                       
+IPAddress                     Administrator       Set IP address                          
+IPCONFIG                      Operator            Display/Configure IP Settings           
+IPMask                        Administrator       Set IP subnet mask                      
+IPROUTE                       Operator            Print Kernel IP routing table           
+IPTable                       Operator            Display IP table                        
+IPV6                          Administrator       Enable/Disable IPv6                     
+IPV6Address                   Administrator       Add or remove a static IPv6 address     
+IPV6Config                    Administrator       Display current IPv6 settings and information
+IPV6DAD                       Administrator       Enable/Disable IPv6 duplicate addresss detection
+IPV6DHcp                      Administrator       Enable/Disable DHCP for IPv6            
+IPV6Defrouter                 Administrator       Set a static IPv6 default router        
+IPV6NDP                       Administrator       IPv6 Neighbor Discovery Protocol information
+IPV6PINGResp                  Administrator       Enable/Disable ping responses for IPv6  
+IPV6REDirects                 Administrator       Enable/Disable IPv6 redirects           
+IPV6ROUTEAdd                  Administrator       Add a static IPv6 route                 
+IPV6ROUTEDelete               Administrator       Delete a static IPv6 route              
+IPV6ROUTEprint                Administrator       Print IPv6 routing table                
+IPV6SLaac                     Administrator       Enable/Disable SLAAC for IPv6           
+ISDIR                         Operator            Is the parameter a directory            
+KEYWAKE                       Programmer          Enable/disable turning on the LCD when waking from a hardkey press.
+KILLSOCKET                    Administrator       Close an active TCP console socket      
+LEDCONFIG                     Programmer          Configure mode of device LED(s)         
+LISTBLOCKEDips                Administrator       List the blocked IP addresses           
+LISTDNS                       Operator            Display the list of DNS servers         
+LISTDNSEx                     Operator            Display the list of DNS servers         
+LISTGROUPS                    Administrator       List existing local groups              
+LISTGROUPUsers                Administrator       List all existing (local and domain) users in an existing
+LISTLOCKEDUsers               Administrator       List blocked users                      
+LISTPUBKEYFromuser            Administrator       List existing public key from an existing user account
+LISTUSERS                     Administrator       List of users authenticated on this system
+LOGINSTAT                     Administrator       Set time to count valid logins          
+LOGOFF                        Operator            Logoff current user                     
+MAKEDIR                       Programmer          Create a Directory                      
+MDNS                          Administrator       Change nsswitch mdns configuration      
+MDNSRETURN                    Administrator       Change nsswitch to return or not return on mdns NOTFOUND
+MOVEfile                      Programmer          Move a file to a different directory    
+NVRAMREBOOT                   Operator            Print reboot information                
+NaxPtpDomain                  Operator            Control PTPv2 domain                    
+NaxSDP                        Operator            Show Advertised Streams                 
+OCSP                          Administrator       Display/Set OCSP configuration for SSL communication.
+OSKFORCe                      Administrator       Force OSK popup                         
+PING                          Operator            Ping remote node                        
+PIRSHOW                       Operator            Show raw data and temperatures from Mercury PIR sensor
+PRINTAUDITLOG                 Administrator       Print the audit log.                    
+RAMFree                       Operator            Show available RAM file space           
+REBOOT                        Operator            Reboot the device                       
+RECOVEr                       Administrator       Backup or Restore config/display folders
+RECOVERYREBOOT                Operator            Forces system reboot for recovery       
+REMBLOCKEDip                  Administrator       Remove an IP Address from the blocked list
+REMDns                        Administrator       Remove an entry from DNS server List    
+REMLOCKEDUser                 Administrator       Remove user from the blocked list       
+REMMaster                     Programmer          Remove a master entry                   
+REMOTEWEBConnections          Operator            Display Remote Web Connections          
+REMOVEDIR                     Programmer          Remove a Directory                      
+REMOVEPUBKEYFromuser          Administrator       Remove an existing public key from an existing user account
+REMOVEUserfromgroup           Administrator       Remove an existing local or domain user from an existing local group
+REMPeer                       Programmer          Remove an entry from Peers IP table     
+REMREMOTeweb                  Programmer          Remove a Web connection Entry           
+RESETPassword                 Administrator       Reset an existing local user's password 
+RESTORe                       Administrator       Restore factory defaults                
+RMLOGerr                      Operator            Enable logging errors to the file.      
+ROUTEADD                      Administrator       Add a static IP route                   
+ROUTEDELete                   Administrator       Delete a static IP route                
+ROUTEPRINT                    Administrator       Print Kernel IP routing table           
+SECURECIPport                 Programmer          Set the secure (SSL) port number for CIP
+SECUREWebport                 Administrator       Set Secure(SSL) port number for Web.    
+SENSORPROXFIeldofview          Programmer          Display all sensor detection parameters for occupancy report
+SENSORPROXTHreshold           Programmer          Display all sensor detection parameters for occupancy report
+SETCSAUTHENTICATION           Administrator       Set Control System Authentication credentials.
+SETLOCKOUTTIME                Administrator       Set time that an IP is blocked from login
+SETLOGINAttempts              Administrator       Set the number of login attempts before blocking IP
+SETLogoffidletime             Administrator       Set idle time allowed before current user is automatically logged off
+SETPAsswordrule               Administrator       Set password rules                      
+SETUSERLOCKOUTTime            Administrator       Set time that a user is blocked from login
+SETUSERLOGINATtempts          Administrator       Set the number of login attempts before blocking User
+SHOWHW                        Operator            Display hardware configuration          
+SIPTRUStedcas                 Administrator       Select/List SIP Trusted CA Certificates 
+SNMP                          Programmer          Enable/disable Simple Network Management Protocol
+SNMPAccess                    Programmer          Configure Access Rights for SNMP Communities
+SNMPALLOWall                  Programmer          Allows All SNMP Managers                
+SNMPCONtact                   Programmer          Configure an SNMP manager               
+SNMPLOCation                  Programmer          Configure an SNMP manager               
+SNMPMANager                   Programmer          Configure an SNMP manager               
+SNMPTRAP                      Programmer          Enable/Disable trap                     
+SNTP                          Administrator       Configure network time synchronization  
+SSHPORt                       Administrator       Enable/Disable and configure SSH port number
+SSHSERVer                     User                Configure the SSH server and the public keys
+SSL                           Administrator       Display/Set SSL type                    
+SSLVERIFY                     Administrator       Display/Set SSL certificate verification.
+STBYTO                        Programmer          Set the standby timeout.                
+SYSLOG                        Operator            Enable/disable system UI log.           
+SYSMSG                        Programmer          Enable/disable system message display.  
+TASKSTAT                      Operator            Lists applications in system            
+TESTDNS                       Operator            Test DNS Server                         
+TIMEZone                      Administrator       Get/Set the timezone                    
+TIMEdate                      Programmer          Get the time and date                   
+TLSVERsion                    Administrator       Set the minimum TLS version.            
+TOUCHONSTARTUp                Administrator       Enable/disable Touch on startup to enter setup mode
+TYPE                          Operator            Display file contents                   
+UPDATEPassword                User                Update current local user's password    
+UPGRADERESULTS                Operator            Print results of last upgrade command   
+UPTIME                        Operator            Display the time the system is running  
+USERInformation               Administrator       Show access information for a specific user
+USERPAGEAUTH                  Administrator       User page Authentication on/off         
+VERsion                       Operator            Print version to console                
+VIDEOPRIORITY                 Operator            Increase the priority of the video threads
+WEBPORT                       Administrator       Set port number for Webserver.          
+WEBSERVER                     Administrator       Enable/disable Webserver                
+WHO                           Administrator       Generate a report of the Ethernet consoles
+WHOAmi                        Operator            Display current user's identity         
+XGETfile                      Operator            Use XMODEM to transfer file from ROM    
+XPUTfile                      Operator            Use XMODEM to transfer file to ROM      
+
+DM-NVX-360>hidhelp user
+
+DM-NVX-360>
