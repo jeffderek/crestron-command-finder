@@ -22,7 +22,7 @@
                 </div>
                 <div id="results-body">
                     <template v-for="action in results">
-                        <div>
+                        <div id="results-command">
                             {{ action.command }}
                         </div>
                         <div>
@@ -93,7 +93,7 @@ const results = computed(() => {
         width: 95%;
         height: 100%;
         display: grid;
-        grid-template-columns: 300px auto;
+        grid-template-rows: min-content auto;
         gap: 16px;
 
         #filter {
@@ -107,14 +107,15 @@ const results = computed(() => {
 
         #results {
             height: 100%;
-            overflow: hidden;
             display: flex;
+            overflow: auto;
             flex-direction: column;
 
             #results-headers {
                 display: grid;
-                grid-template-columns: 275px 100px auto;
+                grid-template-columns: max(20%, 200px) 100px auto;
                 width: 100%;
+                height: fit-content;
                 row-gap: 2px;
                 column-gap: 16px;
                 padding-bottom: 1rem;
@@ -122,12 +123,15 @@ const results = computed(() => {
 
             #results-body {
                 display: grid;
-                grid-template-columns: 275px 100px auto;
+                grid-template-columns: max(20%, 200px) 100px auto;
                 width: 100%;
                 height: auto;
                 row-gap: 2px;
                 column-gap: 16px;
-                overflow: auto;
+
+                #results-command {
+                    overflow-x: clip;
+                }
             }
         }
     }
